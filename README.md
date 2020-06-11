@@ -1,13 +1,13 @@
 # QuadTree
 
 ## What's this repository for
-生成一百个随机点并放入四叉树, 生成一个随机点(rand_point)搜索该点的最邻近点并打印出来，同时以 --r 为范围搜索该范围内有多少个点，并打印出来所有该范围内点的坐标
+Random generate 100 points and insert to quad tree, then generate a random point and search in quad tree to get all points in range and cloest one
 
 ## Build and Run
 
 ```bash
 $ mkdir build
 $ cd build
-$ cmake .. && make -j4
-$ ./QuadTree --r 10 (--r 表示以该点为中心的搜索范围)
+$ cmake .. && make -j
+$ ./QuadTree --r 10 (--r for search range)
 ```
